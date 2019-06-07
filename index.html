@@ -57,6 +57,15 @@ body {
   background: #bbb; /* Grey background */
   color:  #003300;
   }
+.column{
+  float: left;
+  width: 50%;
+  }
+.first:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
 .second {
   padding: 10px; /* Some padding */
   text-align: center; /* Center text*/
@@ -116,10 +125,12 @@ body {
 </div>
 <div class="first">
   <h2>What Are Seasonal Allergies?</h2>
-  <p>As human beings, our immune systems have evolved to be able to detect harmful substances in our bodies. However, there are times when our immune systems turn the tables against us and reacts towards harmless substances, such as pollen, bee venom, pet dander, and foods.
-    Seasonal allergies, also known as hay fever, specifically occur when a person's immune system detects the increased pollen levels in the air. This pollen may come from different trees, grasses, and weeds. Over 67 million Americans of all ages suffer from seasonal allergies, so you're not alone! :)
+  <p class="column">As human beings, our immune systems have evolved to be able to detect harmful substances in our bodies. However, there are times when our immune systems turn the tables against us and reacts towards harmless substances, such as pollen, bee venom, pet dander, and foods.
+    Seasonal allergies, also known as hay fever, specifically occur when a person's immune system detects the increased pollen levels in the air. The pollen associated with seasonal allergies originates from different trees, grasses, and weeds, and the severity can depend on the season. 
+    The severity and type of pollen in the air mainly depends on the seasonOver 67 million Americans of all ages suffer from seasonal allergies, so you're not alone! :)
     <br>
-    <img src="https://www.metroplexallergy.com/wp-content/uploads/2016/09/calendar.png" alt="Seasonal Allergy Chart" width="500" height"505">
+    <br>
+    <img src="https://www.metroplexallergy.com/wp-content/uploads/2016/09/calendar.png" alt="Seasonal Allergy Chart" class="column" width="500" height"505">
 </div>
 <div class="second">
   <h2>How Do I Know If I Have Seasonal Allergies?</h2>
