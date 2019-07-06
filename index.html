@@ -1,3 +1,11 @@
+<?php
+if($_POST["message"]) {
+    mail("leeder000@edmonds15.org", "Form to email message", $_POST["message"], "From: leeder000@edmonds15.org");
+}
+
+?>
+
+
 <html>
 <head>
 <title>IHatePollen.com - A community fighting for the rights of people with sensitive immune systems!</title>
@@ -219,7 +227,7 @@ body {
   <p>Email: leeder000@edmonds15.org
   <p>Phone: (425) 431-7520
   <p>Address: 18218 North Rd, Bothell, WA 98012
-  <form>
+  <form method="post" action="contact.php">
   First name:<br>
   <input type="text" name="firstname"><br>
   Last name:<br>
