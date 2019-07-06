@@ -1,4 +1,15 @@
 <?php
+if($_POST["firstname"]) {
+    mail("leeder000@edmonds15.org", "Form to email message", $_POST["message"], "From: leeder000@edmonds15.org");
+}
+if($_POST["lastname"]) {
+    mail("leeder000@edmonds15.org", "Form to email message", $_POST["message"], "From: leeder000@edmonds15.org");
+}
+if($_POST["email"]) {
+    mail("leeder000@edmonds15.org", "Form to email message", $_POST["message"], "From: leeder000@edmonds15.org");
+}
+
+
 if($_POST["message"]) {
     mail("leeder000@edmonds15.org", "Form to email message", $_POST["message"], "From: leeder000@edmonds15.org");
 }
@@ -233,7 +244,7 @@ body {
   Last name:<br>
   <input type="text" name="lastname"><br>
   Email Address:<br>
-  <input type="text" maxlength="100"><br>
+  <input type="text" name="email" maxlength="100"><br>
   Additional Information:<br>
   <textarea name="message" rows="10" cols="30"></textarea><br>
   <input type="submit" value="Submit">
