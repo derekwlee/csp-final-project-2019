@@ -1,21 +1,3 @@
-<?php
-if($_POST["firstname"]) {
-    mail("leeder000@edmonds15.org", "Form to email message", $_POST["firstnae"], "From: leeder000@edmonds15.org");
-}
-if($_POST["lastname"]) {
-    mail("leeder000@edmonds15.org", "Form to email message", $_POST["lastname"], "From: leeder000@edmonds15.org");
-}
-if($_POST["email"]) {
-    mail("leeder000@edmonds15.org", "Form to email message", $_POST["email"], "From: leeder000@edmonds15.org");
-}
-
-if($_POST["message"]) {
-    mail("leeder000@edmonds15.org", "Form to email message", $_POST["message"], "From: leeder000@edmonds15.org");
-}
-
-?>
-
-
 <html>
 <head>
 <title>IHatePollen.com - A community fighting for the rights of people with sensitive immune systems!</title>
